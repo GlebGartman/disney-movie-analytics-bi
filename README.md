@@ -129,6 +129,8 @@ GROUP BY genre, release_year;
 #### 📊 Среднее количество фильмов в год
 ![Среднее количество фильмов](https://drive.google.com/uc?export=view&id=1ob3JD-rWuEEOb9CZBQewt47J9xOvk6zA)
 
+---
+
 ## 🎛 Фильтры и управление дашбордом
 
 В дашборде реализованы следующие элементы управления:

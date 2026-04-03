@@ -75,7 +75,8 @@ WITH films AS (
 )
 ```
 
-**Тут будет картинка**
+### 📊 Результаты подсчёта метрик
+![Результаты метрик](https://drive.google.com/uc?export=view&id=1WgIgv1px6wxeVCfvde-4Cyuqe3XyLuip)
 
 **2. Топ самых кассовых фильмов по годам**
 
@@ -89,7 +90,7 @@ SELECT
 FROM films
 WHERE gross_index = 1;
 ```
-
+![Топ самых кассовых фильмов](https://drive.google.com/uc?export=view&id=1MVZ_J2mPQKqYz6H30jkqCjcLuL4eoK54)
 
 **3. Сборы по жанрам**
 ```sql
@@ -102,6 +103,8 @@ GROUP BY genre
 ORDER BY genre;
 ```
 
+![Сборы по жанрам](https://drive.google.com/uc?export=view&id=1wJyRTVy-fhzN7iu1gH1PxxpNdzNqUIwN)
+
 **4. Общие сборы и количество фильмов**
 ```sql
 SELECT  
@@ -112,3 +115,16 @@ SELECT
 FROM films
 GROUP BY genre, release_year;
 ```
+
+#### 💰 Суммарные сборы
+![Суммарные сборы](https://drive.google.com/uc?export=view&id=1BubbQcBcyqYz5GOu5VRAGHbmgsDwv-dE)
+
+---
+
+#### 🎥 Количество фильмов
+![Количество фильмов](https://drive.google.com/uc?export=view&id=107bBiIDxwQPNXBiL-qJczH71ku4zsVrB)
+
+---
+
+#### 📊 Среднее количество фильмов в год
+![Среднее количество фильмов](https://drive.google.com/uc?export=view&id=1ob3JD-rWuEEOb9CZBQewt47J9xOvk6zA)
